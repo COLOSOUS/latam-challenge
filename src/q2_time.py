@@ -17,7 +17,7 @@ def q2_time(file_path: str) -> List[Tuple[str, int]]:
     Formato del retorno: [(emoji, conteo), (emoji, conteo), ...]
     
     Las suposiciones son las siguientes:
-    - Cada tweet tiene un campo 'text' que contiene el texto donde pueden aparecer los emojis.
+    - Cada tweet tiene un campo 'content' que contiene el texto donde pueden aparecer los emojis.
     - Se utiliza una expresión regular para detectar emojis.
     - El archivo puede cargarse completamente en memoria.
     """
